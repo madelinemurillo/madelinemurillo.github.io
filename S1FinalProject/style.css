@@ -1,0 +1,12 @@
+body{
+    background-color: lightblue;
+}
+
+#Title {
+    text-align:center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color:black;
+    font-size: 65px;
+    margin-top: 80px;
+}
