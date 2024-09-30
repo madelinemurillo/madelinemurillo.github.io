@@ -9,4 +9,39 @@ body{
     color:black;
     font-size: 65px;
     margin-top: 80px;
+    letter-spacing: 2px;
+}
+
+#GuessContinent {
+    text-align: center;
+    font-weight:normal;
+    font-family: Times New Roman;
+    color: black;
+    font-size: 25px;
+    position: relative;
+    top: 140px;
+}
+
+
+#world{
+    margin: 0 auto;
+    width: 850px;
+    position: relative;
+    top: 150px;
+    left: -7px;
+}
+
+#map {
+    width: 100%;
+}
+
+#EuropeBox {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 90px;
+    left: 370px;
+    transform: skew(-30deg)rotate(5deg);
 }
