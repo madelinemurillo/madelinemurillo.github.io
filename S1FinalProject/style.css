@@ -7,7 +7,7 @@ body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     color:black;
-    font-size: 65px;
+    font-size: 120px;
     margin-top: 80px;
     letter-spacing: 2px;
 }
@@ -47,6 +47,39 @@ body{
     clip-path:polygon(7% 100%, 18% 0%, 94% 0%, 83% 100%);
 }
 
+#Circle1 {
+    width: 30px;
+    height: 22px;
+    background-color: white;
+    opacity: 0;
+    position: absolute;
+    top: 106px;
+    left: 353px;
+    border-radius: 50%; 
+}
+
+#Circle2 {
+    width: 47px;
+    height: 30px;
+    background-color: white;
+    opacity: 0;
+    position: absolute;
+    top: 24px;
+    left: 433px;
+    border-radius: 50%; 
+}
+
+#Circle3 {
+    width: 50px;
+    height: 23px;
+    background-color: white;
+    opacity: 0;
+    position: absolute;
+    top: 14px;
+    left: 514px;
+    border-radius: 50%; 
+}
+
 #TitleEuropePage {
     text-align:center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -62,7 +95,7 @@ body{
     position: relative;
     top: 100px;
     left: 0px;
-   margin-bottom: 160px;
+   margin-bottom: 110px;
 }
 
 #CountryYesTransparentBox {
@@ -73,6 +106,15 @@ body{
     position: absolute;
     top: 205px;
     left: 459px;
+}
+
+#BackWrapper{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 0px;
+    left:30px;
+    margin-bottom: 40px;
 }
 
 #NoPageTitle{
@@ -90,4 +132,9 @@ body{
     position: relative;
     top: 60px;
     margin-bottom: 160px;
+}
+#Back{
+    width: 50px;
+    height: 50px;
+    max-width:100%;
 }
