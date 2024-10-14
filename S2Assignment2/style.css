@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(rgb(1, 56, 255), rgb(180, 236, 255));
+}
+
+#Title {
+    text-align:center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size:80px;
+    margin-top: 80px;
+    letter-spacing: 2px;
+}
