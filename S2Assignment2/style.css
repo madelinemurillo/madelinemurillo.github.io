@@ -3,51 +3,55 @@ body{
   
 }
 
-/* input {
-    display: none;
-} */
-
 #Title {
     text-align:center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     color: white;
     font-size:6vw;
-    margin-top: 90px;
+    margin-top: 100px;
     letter-spacing: 2px;
 }
 
-#FlexWrapper{
-display: flex;
-flex-wrap:wrap;
-position:relative;
-margin-top: 130px;
-align-items: center;
-justify-content: center;
-
+#CaseSize{
+  width:100%;
 }
+
+#FlexWrapper{
+  display: flex;
+  flex-wrap:wrap;
+  position:relative;
+  margin-top: 90px;
+  align-items: center;
+  justify-content: center;
+}
+
 .tile{
-    width: 350px;
-    height:auto;
-    margin: 50px;
-    /* background-color: blue; */
-    justify-content: space-evenly center;
+  width: 32vh;
+  max-width:350px;
+  height: 30vh;
+  margin: 50px;
+  background-color: blue;
+  justify-content: space-evenly center;
 }
 
 img{
     max-width: 100%;
-    width: 350px;
+    max-height:100%;
     height:auto;
+    width:auto;
     
 }
-/* input {
+input {
     display: none;
-  } */
+  } 
 
   #case1closed {
     display: block;
     position: relative;
-    /* background-color: blue; */
+    /*background-color: rgb(0, 255, 51);*/
+    width:100%;
+    height:100%;
   }
 
   #case1open {
@@ -55,7 +59,7 @@ img{
   /*   pointer-events: none; */
     width: 100%;
     height: 100%;
-    /* background-color: red; */
+    /*background-color: red;*/
   }
 
   #case1static:checked ~ #case1closed > #case1open {
@@ -74,6 +78,104 @@ img{
     display: none;
   }
   
-  #case1static:checked ~ #test > span {
+  #case1static:checked ~ #Case1closed > span {
+    display: inline-block;
+  }
+  
+
+  #case2closed {
+    display: block;
+    position: relative;
+    /*background-color: rgb(0, 255, 51);*/
+    width:100%;
+    height:100%;
+  }
+
+  #case2open {
+    opacity: 0;
+  /*   pointer-events: none; */
+    width: 100%;
+    height: 100%;
+    /*background-color: red;*/
+  }
+
+  #case2static:checked ~ #case2closed > #case2open {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+  }
+
+  #case2static:checked ~ #case2closed > #CaseSize { 
+    opacity: 0;
+  }
+  
+  #case2static:checked ~ #Case2closed > span {
+    display: inline-block;
+  }
+
+
+
+  #case3closed {
+    display: block;
+    position: relative;
+    /*background-color: rgb(0, 255, 51);*/
+    width:100%;
+    height:100%;
+  }
+
+  #case3open {
+    opacity: 0;
+  /*   pointer-events: none; */
+    width: 100%;
+    height: 100%;
+    /*background-color: red;*/
+  }
+
+  #case3static:checked ~ #case3closed > #case3open {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+  }
+
+  #case3static:checked ~ #case3closed > #CaseSize { 
+    opacity: 0;
+  }
+  
+  #case3static:checked ~ #Case3closed > span {
+    display: inline-block;
+  }
+
+
+
+  #case4closed {
+    display: block;
+    position: relative;
+    /*background-color: rgb(0, 255, 51);*/
+    width:100%;
+    height:100%;
+  }
+
+  #case4open {
+    opacity: 0;
+  /*   pointer-events: none; */
+    width: 100%;
+    height: 100%;
+    /*background-color: red;*/
+  }
+
+  #case4static:checked ~ #case4closed > #case4open {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+  }
+
+  #case4static:checked ~ #case4closed > #CaseSize { 
+    opacity: 0;
+  }
+  
+  #case4static:checked ~ #Case4closed > span {
     display: inline-block;
   }
