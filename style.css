@@ -27,9 +27,11 @@ body{
 }
 
 .tile{
-  width: 32vh;
+  width: 32vw;
   max-width:350px;
   height: 30vh;
+  height: auto;
+  max-height: 100%;
   margin: 50px;
   background-color: blue;
   justify-content: space-evenly center;
@@ -49,7 +51,7 @@ input {
   #case1closed {
     display: block;
     position: relative;
-    /*background-color: rgb(0, 255, 51);*/
+    background-color: rgb(0, 255, 51);
     width:100%;
     height:100%;
   }
@@ -59,7 +61,7 @@ input {
   /*   pointer-events: none; */
     width: 100%;
     height: 100%;
-    /*background-color: red;*/
+    background-color: red;
   }
 
   #case1static:checked ~ #case1closed > #case1open {
@@ -86,7 +88,7 @@ input {
   #case2closed {
     display: block;
     position: relative;
-    /*background-color: rgb(0, 255, 51);*/
+    background-color: rgb(0, 255, 51);
     width:100%;
     height:100%;
   }
@@ -96,7 +98,7 @@ input {
   /*   pointer-events: none; */
     width: 100%;
     height: 100%;
-    /*background-color: red;*/
+    background-color: red;
   }
 
   #case2static:checked ~ #case2closed > #case2open {
@@ -152,7 +154,7 @@ input {
   #case4closed {
     display: block;
     position: relative;
-    /*background-color: rgb(0, 255, 51);*/
+    background-color: rgb(0, 255, 51);
     width:100%;
     height:100%;
   }
@@ -161,8 +163,8 @@ input {
     opacity: 0;
   /*   pointer-events: none; */
     width: 100%;
-    height: 100%;
-    /*background-color: red;*/
+    height:100%;
+    background-color: red;
   }
 
   #case4static:checked ~ #case4closed > #case4open {
