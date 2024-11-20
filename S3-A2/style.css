@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+    background: #54DCB7;
+}
+/*.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }*/
+  
+#Title {
+    font-family:"roboto";
+    font-weight: bold;
+    color: white;
+    font-size:4vw;
+    margin-top: 90px;
+    position: relative;
+    margin-left: 35px;
+}
+#SharingTextBox1 {
+    position: absolute;
+    margin-top: 35px;
+    right: 60px;
+    width:30vw;
+    max-width: 590px;
+    max-height:395px;
+    height: 26vw;
+    border-radius: 25%;
+    background-color: #5D8DF4;
+}
+#SharingTextBox2 {
+    position: absolute;
+    top: 30vw;
+    right: 0px;
+    width:30vw;
+    max-width: 590px;
+    max-height:205px;
+    height: 24vw;
+    border-radius: 25%;
+    background-color: #5D8DF4;
+}
