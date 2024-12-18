@@ -47,32 +47,70 @@ body {
     
   }
   
+a{
+  text-decoration: none;
+  color:white;
+}
+
   #Headings {
     font-family:"Robotto";
     font-weight: bold;
     color: white;
     font-size:4vw;
     position:relative;
-    top: 80px;
+    top: 55px;
     text-align: center;
 }
-    
-#GridWrapper {
+   
+
+#FlexWrapper{
+  display: flex;
+  flex-wrap:wrap;
+  position:relative;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px 40px;
+ /* background-color: red;*/
+  height: 74vh;
+}
+
+.tile{
+  width: 16vw;
+  max-width:350px;
+  height: 16vw;
+  /*max-height: 100%;*/
+  /*background-color: blue;*/
+  justify-content: space-evenly center;
+  font-family: "Just Another Hand";
+  font-weight: bold;
+  font-size: 2vw;
+  letter-spacing: 1.5px;
+  padding-top:18px;
+  padding-left:14px;
+  padding-right:14px;
+  border: 2px solid white;
+  
+}
+
+
+
+/*#GridWrapper {
     position: relative;
     top: 40px;
     margin-bottom: 120px;
     height:20%;
-    /*background-color: red;*/
-    }
+    /*background-color: red;
+    }*/
     
-#StyledTable{
+/*#StyledTable{
     border-collapse:separate;
     margin: 0 auto;
     border-spacing: 40px;
-    /*background-color:blue;*/
-}
+    /*background-color:blue;
+}*/
     
- #StyledTable td {
+ /*#StyledTable td {
     border: 5px solid white;
     width: 20vw;
     height: 20vw;
@@ -84,15 +122,20 @@ body {
     padding-top: 10px;
     float: left;
     
-}
+}*/
     
 img{
-    max-width: 100%;
-    width: auto;
-    height:auto;
- 
+    max-width: 70%;
+    width: 15vw;
+    height:11vw;
   }
 
+ #ContinentsPictureSize{
+    max-width: 100%;
+    width: 20vw;
+    height:9vw;
+  }
+ 
 #sec3 {
     background-color: #434242;
   }
