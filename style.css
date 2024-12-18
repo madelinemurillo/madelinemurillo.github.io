@@ -122,36 +122,6 @@ a{
   margin-left: 1vw;
 }
 
-
-
-/*#GridWrapper {
-    position: relative;
-    top: 40px;
-    margin-bottom: 120px;
-    height:20%;
-    /*background-color: red;
-    }*/
-    
-/*#StyledTable{
-    border-collapse:separate;
-    margin: 0 auto;
-    border-spacing: 40px;
-    /*background-color:blue;
-}*/
-    
- /*#StyledTable td {
-    border: 5px solid white;
-    width: 20vw;
-    height: 20vw;
-    text-align: center;
-    color: white;
-    font-family: "Just Another Hand";
-    font-size: 2vw;
-    letter-spacing: 1.5px;
-    padding-top: 10px;
-    float: left;
-    
-}*/
     
 img{
     max-width: 70%;
@@ -179,7 +149,6 @@ img{
   margin-top:105px;
   margin-bottom: 20px;
   width: 54%;
-  /*margin-top: calc(50vh - 245px);*/
   padding:20px;
   overflow-y: scroll;
   font-family: "Patrick Hand SC";
